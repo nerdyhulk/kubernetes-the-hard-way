@@ -1,0 +1,7 @@
+#debian-cloud-init
+package_update: true
+package_upgrade: true
+apt: 
+  sources:
+    debian:
+    source: "deb http://cdn-fastly.deb.debian.org/debian stable main"
